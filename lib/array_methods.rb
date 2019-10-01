@@ -11,5 +11,5 @@ end
 
 def find_min_value(array)
   scale = [2,3,4,5]
-  
+  scale.min_by do
 end
