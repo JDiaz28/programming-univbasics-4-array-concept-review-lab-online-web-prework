@@ -6,10 +6,10 @@ end
 
 def find_max_value(array)
   scale = [2,3,4,5,]
-  scale.max_by do
+  scale.max_by do |element|
 end
 
 def find_min_value(array)
   scale = [2,3,4,5]
-  scale.min_by do
+  scale.min_by do |element|
 end
