@@ -8,9 +8,11 @@ end
 def find_max_value(array)
   scale = [2,3,4,5,]
   scale.max_by do |element|
+    puts scale[element]
 end
 
 def find_min_value(array)
   scale = [2,3,4,5]
   scale.min_by do |element|
+    puts scale[element]
 end
